@@ -1,7 +1,7 @@
-window.dataLayer = window.dataLayer || [] ;
-window.dataLayer.push ({ecommerc: null)}; // // Clear the previous ecommerce object.
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({ ecommerce: null }); // Clear the previous ecommerce object.
 window.dataLayer.push({
-event: 'add_to_cart';   // name of the event. In this case, it always must be view_item
+  event: 'add_to_cart',                    // name of the event. In this case, it always must be view_item
   ecommerce: {
     items: [{                            // an array
       item_id: "SKU_12345",
