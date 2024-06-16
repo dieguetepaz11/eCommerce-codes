@@ -1,0 +1,27 @@
+window.dataLayer = window.dataLayer || [] ;
+window.dataLayer.push ({ecommerc: null)}; // // Clear the previous ecommerce object.
+window.dataLayer.push({
+event: 'add_to_cart';   // name of the event. In this case, it always must be view_item
+  ecommerce: {
+    items: [{                            // an array
+      item_id: "SKU_12345",
+      item_name: "Stan and Friends Tee",
+      affiliation: "Google Merchandise Store",
+      coupon: "SUMMER_FUN",
+      discount: 2.22,
+      index: 0,
+      item_brand: "Google",
+      item_category: "Apparel",
+      item_category2: "Adult",
+      item_category3: "Shirts",
+      item_category4: "Crew",
+      item_category5: "Short sleeve",
+      item_list_id: "related_products",
+      item_list_name: "Related Products",
+      item_variant: "green",
+      location_id: "ChIJIQBpAG2ahYAR_6128GcTUEo",
+      price: 10.03,
+      quantity: 3
+    }]
+  }
+})
